@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/6babc033b8.js" crossorigin="anonymous"></script>    <title>Portfolio</title>
+</head>
+<body class="bg-gray-100">
+    <!--Header-->
+    <header class="bg-teal-600 text-white p-4 flex justify-between items-center">
+        <h1 class="text-2xl font-bold cursor-pointer">Walk For <span class="text-teal-400">Peace</span></h1>
+        <nav>
+            <ul class="flex space-x-4">
+                <li><a href="#Home" class="hover:text-gray-300">Home</a></li>
+                <li><a href="#About us" class="hover:text-gray-300">About Us</a></li>
+                <li><a href="#Contact" class="hover:text-gray-300">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="flex space-x-4">
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="hover:text-gray-300"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="hover:text-gray-300"><i class="fab fa-twitter"></i></a>
+        </div>
+    </header>
+    <main>
+        <!--Hero Section-->
+        <section id="home" class="h-screen bg-cover bg-center text-white" style="background-image:url(https://img.freepik.com/free-vector/happy-21th-september-template-with-dove-olive-branch-design-vector-illustration_1017-39665.jpg?t=st=1722790286~exp=1722793886~hmac=110f84d3285415bc3ed8e144505315f2a53229e1779750a63a7881160c1941e8&w=740);">
+            <div class="h-full flex flex-col justify-center items-center bg-black bg-opacity-50">
+                <h2 class="text-4xl md:text-6xl mb-4 font-bold">Walk for Peace</h2>
+                <p class="text-xl md:text-xl"> Welcome to the oficial website of the "Walk for Peace" event. In this website you'll know everything about our event.</p>
+            </div>
+        </section>
+        <!-- Home Section -->
+        <section id="Home" class="p-8">
+            <h2 class="text-3xl mb-6 text-center font-bold">Home</h2>
+                <p class="text-xl md:text-xl">The "Walk for Peace" event is an initiative of the eponymous non-governmental organization to promote peace and living together around the world. <br>
+                    The event will take place on August 5. </p>
+            </div>
+        </section>
+        <!-- Schedule Section -->
+        <section id="Schedule" class="p-8">
+            <h2 class="text-3xl mb-6 text-center font-bold">Schedule</h2>
+                <p class="text-xl md:text-xl">1:00 PM - 1:30 PM : Opening Ceremony <br>
+                    1:30 PM - 4:00 PM : Press Conference from the Chairman of "Walk for Peace" <br>
+                    4:00 PM - 5:00 PM : Intuitive workshops <br>
+                    5:00 PM - 7:00 PM : Screening of a movie promoting peace <br>
+                    7:00 PM - 10:00 PM : Closing ceremony concert (Singing for peace)
+                </p>
+            </div>
+        </section>
+        <!--Attendees Section-->
+        <section id="--Attendees" class="p-8">
+            <h2 class="text-3xl mb-6 text-center font-bold">Attendees</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <!-- Attendees Cards -->
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="https://img.freepik.com/photos-premium/drapeau-union-europeenne-close-up-abstract-blue-background_101969-2035.jpg?w=740" alt="European Union" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">European Union</h3>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="Capture d’écran 2024-08-05 014040.png" alt="USAID" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">USAID</h3>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="Capture d’écran 2024-08-05 014524.png" alt="African Union" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">African Union</h3>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="Capture d’écran 2024-08-05 014903.png" alt="GreenPeace" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">GreenPeace</h3>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="Capture d’écran 2024-08-05 015239.png" alt="Orange" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Orange</h3>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-md overflow-hidden">
+                    <img src="Capture d’écran 2024-08-05 015519.png" alt="France 24" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">France 24</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Registration Section-->
+        <section id="Registration" class="p-6">
+            <h2 class="text-3xl mb-6 text-center font-bold">Sign Up</h2> 
+            <form class="max-w-lg mx-auto bg-white p-6 shadow-md rounded-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold">Your First Name:</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold">Your Name:</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700 font-bold">Your Age:</label>
+                    <input type="text" id="name" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700 font-bold">Your Email:</label>
+                    <input type="email" id="email" class="w-full p-2 border border-gray-300 rounded-md">
+                </div>
+                <button type="submit" class="w-full bg-teal-600 text-white p-2 rounded-md hover:bg-teal-500">Sign Up</button>
+            </form>        
+        </section>
+    </main>
+        <!--Contact Section-->
+            <h2 class="text-3xl mb-6 text-center font-bold">Contacts</h2>
+        <p><a href="contact.html">In order to contact us , you can find us on our social media pages just shown below</a></p> 
+    <!--Importing Icons-->
+    <div class="social">
+        <a href=""><i class="fa-brands fa-instagram"></i>
+        <a href=""><i class="fa-brands fa-x-twitter"></i>
+        <a href=""><i class="fa-brands fa-facebook-f"></i>
+        <a href=""><i class="fa-brands fa-linkedin-in"></i>
+    <!-- Footer -->
+     <footer class="bg-teal-600 text-white p-4 text-center">
+        <div class="flex justify-center space-x-4 mb-4">
+            <!-- Social icons -->
+            <a href="https://www.linkedin.com/in/yourprofile" target="_blank" class="hover:text-gray-300 text-2xl"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/yourprofile" target="_blank" class="hover:text-gray-300 text-2xl"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>&copy; 2024 Walk For Peace. All Rights Reserved.</p>
+     </footer>
+</body>
+</html>

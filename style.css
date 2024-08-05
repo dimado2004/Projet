@@ -1,0 +1,13 @@
+#Group1{
+    display: flex;
+    margin-left: 150px;
+}
+#Group1 p{
+    margin-left: 20px;
+}
+.container img{
+    width: 300px;
+}
+.container{
+    align-items: center;
+}
